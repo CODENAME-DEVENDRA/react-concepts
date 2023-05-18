@@ -49,7 +49,6 @@ function Main() {
 
     console.log(arr);
     const handleChange = (e) => {
-        console.log(e);
         console.log(e.target.value);
         setStr(e.target.value)
     }
