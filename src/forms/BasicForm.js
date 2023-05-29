@@ -66,6 +66,7 @@ function BasicForm() {
                 })} */}
 
                 {data.map((item, i) => {
+                    console.log(item);
                     return <ul key={i}>
                         <li>{item.username}</li>
                         <li>{item.email}</li>

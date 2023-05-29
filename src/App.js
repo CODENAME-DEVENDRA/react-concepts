@@ -10,7 +10,6 @@ import Project1 from "./project1/Main"
 import Forms from "./forms/Main"
 import Routing from "./router/Main"
 import Project2 from "./project2/Main"
-
 import "./App.css"
 import HandleSvg from "./svg/HandleSvg"
 
@@ -26,10 +25,10 @@ function App() {
       {/* <Styling /> */}
       {/* <FragmentComp /> */}
       {/* <Project1 /> */}
-      {/* <Forms /> */}
+      <Forms />
       {/* <Routing /> */}
       {/* <Project2 /> */}
-      <HandleSvg />
+      {/* <HandleSvg /> */}
     </>
   );
 }
