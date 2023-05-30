@@ -4,15 +4,17 @@ import StateNum from './StateNum'
 import StateBoolean from './StateBoolean'
 import StateArray from './StateArray'
 import StateObject from './StateObject'
+import MultipleState from './MultipleState'
 
 function Main() {
     return (
         <div>
-            <StateString />
+            {/* <StateString /> */}
             {/* <StateNum /> */}
             {/* <StateBoolean /> */}
             {/* <StateArray /> */}
             {/* <StateObject /> */}
+            <MultipleState />
         </div>
     )
 }
