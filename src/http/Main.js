@@ -6,9 +6,9 @@ import AllApiReq from './basicApi/AllApiReq'
 function Main() {
     return (
         <>
-            {/* <ApiFetch /> */}
+            <ApiFetch />
             {/* <ApiAxios /> */}
-            <AllApiReq />
+            {/* <AllApiReq /> */}
         </>
     )
 }

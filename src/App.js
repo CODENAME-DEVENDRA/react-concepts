@@ -12,6 +12,8 @@ import Routing from "./router/Main"
 import Project2 from "./project2/Main"
 import HandleSvg from "./svg/HandleSvg"
 import Http from "./http/Main"
+import Project3 from "./project3/Main"
+
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
       {/* <Jsx /> */}
       {/* <Props /> */}
       {/* <Events /> */}
-      <State />
+      {/* <State /> */}
       {/* <Conditional /> */}
       {/* <Styling /> */}
       {/* <FragmentComp /> */}
@@ -30,6 +32,7 @@ function App() {
       {/* <Project2 /> */}
       {/* <HandleSvg /> */}
       {/* <Http /> */}
+      <Project3 />
     </>
   );
 }
