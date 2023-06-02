@@ -32,7 +32,7 @@ function App() {
       {/* <Project2 /> */}
       {/* <HandleSvg /> */}
       {/* <Http /> */}
-      <Project3 />
+      {/* <Project3 /> */}
     </>
   );
 }

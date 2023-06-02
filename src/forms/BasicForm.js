@@ -30,6 +30,19 @@ function BasicForm() {
     // const arr = [...arr1, ...arr2]
     // console.log(arr);
 
+    const [selected, setSelected] = useState("")
+    const handleRadioChange = (e) => {
+        setSelected(e.target.value)
+    }
+    console.log("radio", selected);
+
+    const handleReset = () => {
+        setFormData({
+            username: "",
+            email: "",
+            password: ""
+        })
+    }
 
     return (
         <>
@@ -50,11 +63,31 @@ function BasicForm() {
                 </label>
                 <br />
                 <button type='submit'> Submit</button>
+                <button onClick={handleReset} type='reset'> Reset</button>
 
 
                 <label htmlFor="abc">Color</label>
                 <input type='color' id='abc' />
 
+                <label>
+                    <input
+                        type='radio'
+                        value="male"
+                        onChange={handleRadioChange}
+                        checked={selected === "male"}
+                    />
+                    Male
+                </label>
+                <label>
+                    <input
+                        type='radio'
+                        value="female"
+                        onChange={handleRadioChange}
+                        checked={selected === "female"}
+
+                    />
+                    Female
+                </label>
 
             </form>
             <div>
