@@ -8,6 +8,7 @@ function Todo() {
 
     const [input, setInput] = useState("")
     const [todos, setTodos] = useState([])
+    const [editTodo, setEditTodo] = useState(null)
 
     return (
         <div className={classes.todoContainer}>
@@ -18,9 +19,13 @@ function Todo() {
                     setInput={setInput}
                     todos={todos}
                     setTodos={setTodos}
+                    editTodo={editTodo}
+                    setEditTodo={setEditTodo}
                 />
                 <TodoList
                     todos={todos}
+                    setTodos={setTodos}
+                    setEditTodo={setEditTodo}
                 />
             </div>
         </div>
