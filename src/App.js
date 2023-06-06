@@ -13,6 +13,7 @@ import Project2 from "./project2/Main"
 import HandleSvg from "./svg/HandleSvg"
 import Http from "./http/Main"
 import Project3 from "./project3/Main"
+import UseEffect from "./useEffect/Main"
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <Project2 /> */}
       {/* <HandleSvg /> */}
       {/* <Http /> */}
-      <Project3 />
+      {/* <Project3 /> */}
+      <UseEffect />
     </>
   );
 }

@@ -1,23 +1,18 @@
-Features of React
+Features of React -> pending
 
 1.SPA -> single page application
 2.One-way data flow
+//virtual dom vs real dom
+//controlled and uncontrolled form
 
 1.div hide/show //done
-if else if -> ternary //pending
+if else if -> ternary //done
 arr number limit upto 20 //done
 Object.keys render //done
-
-interview
-actual work
 
 E26 45
 E20 23
 E19 1
-
-id
-class
-tag
 
 //css
 styled-component
@@ -27,13 +22,10 @@ scss
 tailwind css
 
 //lib
-material ui
-react-bootstrap
-ant-design
+material ui //done
+react-bootstrap //done
+ant-design  
 chakra ui
-
-//virtual dom vs real dom
-//controlled and uncontrolled form
 
 type info
 text name
@@ -56,8 +48,28 @@ form and action
 navigate
 
 //forms
-
-formik
+formik //done
 react-hook-form
 redux-form
-//router-form
+router-form
+
+//hooks
+
+useState
+useEffect
+useReducer
+useContext
+useRef
+
+useMemo  
+useCallback
+
+customHooks
+
+what are hooks?
+which hooks u have used
+
+//hooks 3 days
+//context 1 day
+//redux 2 day
+//hoc 1/2 day
