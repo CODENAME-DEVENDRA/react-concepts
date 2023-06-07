@@ -14,6 +14,8 @@ import HandleSvg from "./svg/HandleSvg"
 import Http from "./http/Main"
 import Project3 from "./project3/Main"
 import UseEffect from "./useEffect/Main"
+import Context from "./context/Main"
+import Reducer from "./reducer/Main"
 
 
 function App() {
@@ -34,7 +36,9 @@ function App() {
       {/* <HandleSvg /> */}
       {/* <Http /> */}
       {/* <Project3 /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      {/* <Context /> */}
+      <Reducer />
     </>
   );
 }

@@ -57,12 +57,13 @@ router-form
 
 useState
 useEffect
-useReducer
-useContext
-useRef
 
-useMemo  
-useCallback
+useReducer medium
+useContext medium
+useRef easy
+
+useMemo advance
+useCallback advance
 
 customHooks
 
