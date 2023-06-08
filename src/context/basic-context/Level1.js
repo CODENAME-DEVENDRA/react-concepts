@@ -5,7 +5,6 @@ function Level1() {
     return (
         <>
             <h1>Level1</h1>
-            {/* <Level2></Level2> */}
             <Level2 />
         </>
     )

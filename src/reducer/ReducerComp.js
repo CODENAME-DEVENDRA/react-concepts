@@ -9,13 +9,13 @@ function ReducerComp() {
 
     //step2
     const reducer = (state, action) => {
-        // console.log(action);
+        console.log(action);
         switch (action.type) {
             case "COUNTER":
-                return { count: state.count + 1 };
+                return { ...state, count: state.count + 1 };
 
             case "TOGGLE":
-                return { toggle: !state.toggle }
+                return { ...state, toggle: !state.toggle }
 
             default:
                 return state;
@@ -28,7 +28,6 @@ function ReducerComp() {
         count: 0,
         toggle: false
     })
-
 
 
     //step 3

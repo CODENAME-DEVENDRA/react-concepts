@@ -61,6 +61,7 @@ useEffect
 useReducer medium
 useContext medium
 useRef easy
+useLayoutEffect
 
 useMemo advance
 useCallback advance
