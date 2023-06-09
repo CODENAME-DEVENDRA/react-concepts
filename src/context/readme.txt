@@ -9,3 +9,10 @@ Context steps
 //recieve
 
 //1 use useContext hook
+
+Advance with reducer
+
+#Reducer
+#Component
+
+

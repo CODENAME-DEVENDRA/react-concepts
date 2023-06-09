@@ -18,6 +18,7 @@ import Context from "./context/Main"
 import Reducer from "./reducer/Main"
 import UseRef from "./useRef/Main"
 import UseLayoutEffect from "./useLayoutEffect/Main"
+import Project4 from "./project4/Main"
 
 
 function App() {
@@ -37,12 +38,13 @@ function App() {
       {/* <Project2 /> */}
       {/* <HandleSvg /> */}
       {/* <Http /> */}
-      <Project3 />
+      {/* <Project3 /> */}
       {/* <UseEffect /> */}
       {/* <Context /> */}
       {/* <Reducer /> */}
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}
+      <Project4 />
     </>
   );
 }

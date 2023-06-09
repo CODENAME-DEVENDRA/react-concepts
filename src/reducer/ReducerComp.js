@@ -9,7 +9,7 @@ function ReducerComp() {
 
     //step2
     const reducer = (state, action) => {
-        console.log(action);
+        // console.log(action);
         switch (action.type) {
             case "COUNTER":
                 return { ...state, count: state.count + 1 };
