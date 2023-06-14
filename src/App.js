@@ -19,6 +19,9 @@ import Reducer from "./reducer/Main"
 import UseRef from "./useRef/Main"
 import UseLayoutEffect from "./useLayoutEffect/Main"
 import Project4 from "./project4/Main"
+import Redux from "./redux/Main"
+import UseMemo from "./useMemo/Main"
+import UseCallback from "./useCallback/Main"
 
 
 function App() {
@@ -44,7 +47,10 @@ function App() {
       {/* <Reducer /> */}
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}
-      <Project4 />
+      {/* <Project4 /> */}
+      {/* <Redux /> */}
+      <UseMemo />
+      {/* <UseCallback /> */}
     </>
   );
 }

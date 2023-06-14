@@ -1,0 +1,16 @@
+const initialState = {
+    username: "John"
+}
+
+export const reduxReducer = (state = initialState, action) => {
+    console.log(action);
+    switch (action.type) {
+        case "CHANGE_NAME":
+            return { ...state, username: action.payload.username }
+
+        default:
+            return state
+
+    }
+
+}

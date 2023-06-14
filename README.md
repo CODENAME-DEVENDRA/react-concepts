@@ -71,7 +71,9 @@ customHooks
 what are hooks?
 which hooks u have used
 
-//hooks 3 days
+//hooks 3 days  
 //context 1 day
 //redux 2 day
 //hoc 1/2 day
+
+npx create-react-app ./
