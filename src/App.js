@@ -22,7 +22,8 @@ import Project4 from "./project4/Main"
 import Redux from "./redux/Main"
 import UseMemo from "./useMemo/Main"
 import UseCallback from "./useCallback/Main"
-
+import Hoc from "./hoc/Main"
+import CustomHook from "./customHook/Main"
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
       {/* <State /> */}
       {/* <Conditional /> */}
       {/* <Styling /> */}
-      {/* <FragmentComp /> */}
+      <FragmentComp />
       {/* <Project1 /> */}
       {/* <Forms /> */}
       {/* <Routing /> */}
@@ -49,8 +50,10 @@ function App() {
       {/* <UseLayoutEffect /> */}
       {/* <Project4 /> */}
       {/* <Redux /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
       {/* <UseCallback /> */}
+      {/* <Hoc /> */}
+      {/* <CustomHook /> */}
     </>
   );
 }

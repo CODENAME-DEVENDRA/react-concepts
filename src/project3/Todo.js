@@ -10,7 +10,6 @@ function Todo() {
     const [todos, setTodos] = useState([])
     const [editTodo, setEditTodo] = useState(null)
 
-
     useEffect(() => {
         if (todos) {
             localStorage.setItem("todo-data", JSON.stringify(todos))

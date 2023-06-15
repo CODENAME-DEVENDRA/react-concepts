@@ -68,12 +68,18 @@ useCallback advance
 
 customHooks
 
+useCounter
+useApi //useFetch
+useLocalStorage
+useForm
+useDateFormat
+
 what are hooks?
 which hooks u have used
 
-//hooks 3 days  
+//hooks 3 days //done
 //context 1 day
 //redux 2 day
-//hoc 1/2 day
+//hoc 1/2 day //done
 
 npx create-react-app ./
