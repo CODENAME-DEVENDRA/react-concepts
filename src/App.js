@@ -35,7 +35,7 @@ function App() {
       {/* <State /> */}
       {/* <Conditional /> */}
       {/* <Styling /> */}
-      <FragmentComp />
+      {/* <FragmentComp /> */}
       {/* <Project1 /> */}
       {/* <Forms /> */}
       {/* <Routing /> */}
@@ -44,7 +44,7 @@ function App() {
       {/* <Http /> */}
       {/* <Project3 /> */}
       {/* <UseEffect /> */}
-      {/* <Context /> */}
+      <Context />
       {/* <Reducer /> */}
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}

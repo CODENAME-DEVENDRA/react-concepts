@@ -1,5 +1,6 @@
 import React, { createContext } from 'react'
 
+//step 1
 export const CountContext = createContext()
 
 export const initialState = {
