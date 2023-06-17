@@ -39,12 +39,12 @@ function App() {
       {/* <Project1 /> */}
       {/* <Forms /> */}
       {/* <Routing /> */}
-      {/* <Project2 /> */}
+      <Project2 />
       {/* <HandleSvg /> */}
       {/* <Http /> */}
       {/* <Project3 /> */}
       {/* <UseEffect /> */}
-      <Context />
+      {/* <Context /> */}
       {/* <Reducer /> */}
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}
