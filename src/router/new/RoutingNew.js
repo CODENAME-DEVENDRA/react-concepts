@@ -5,12 +5,13 @@ import ContactUs from './components/ContactUs'
 import Product from './components/Product'
 import Add from './components/Add'
 import Error from './components/Error'
-import ProductDashboard from './components/ProductDashboard'
-import ProductDetails from './components/ProductDetails'
+import ProductDashboard, { productLoader } from './components/ProductDashboard'
+import ProductDetails, { productDetailsLoader } from './components/ProductDetails'
+import ProductError from './components/ProductError'
 
 function RoutingNew() {
 
-    //method 1
+    //method 1 
     // const router = createBrowserRouter([
     //     {
     //         path: "/",
@@ -37,17 +38,18 @@ function RoutingNew() {
     const router = createBrowserRouter(
         createRoutesFromElements(
             <Route path='/' element={<Home />}>
+
                 <Route path='contact' element={<ContactUs />} >
                     <Route path='add' element={<Add />} />
                 </Route>
 
-
-
                 <Route path='product' element={<Product />} >
-
-                    <Route index element={<ProductDashboard />} />
-                    <Route path='details' element={<ProductDetails />} />
-
+                    <Route index loader={productLoader} element={<ProductDashboard />} />
+                    <Route path=':id'
+                        loader={productDetailsLoader}
+                        element={<ProductDetails />}
+                        errorElement={<ProductError />}
+                    />
                 </Route>
 
 

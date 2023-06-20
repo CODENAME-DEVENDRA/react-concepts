@@ -24,6 +24,8 @@ import UseMemo from "./useMemo/Main"
 import UseCallback from "./useCallback/Main"
 import Hoc from "./hoc/Main"
 import CustomHook from "./customHook/Main"
+import Project5 from "./project5/Main"
+
 
 function App() {
   return (
@@ -39,7 +41,7 @@ function App() {
       {/* <Project1 /> */}
       {/* <Forms /> */}
       {/* <Routing /> */}
-      <Project2 />
+      {/* <Project2 /> */}
       {/* <HandleSvg /> */}
       {/* <Http /> */}
       {/* <Project3 /> */}
@@ -54,6 +56,8 @@ function App() {
       {/* <UseCallback /> */}
       {/* <Hoc /> */}
       {/* <CustomHook /> */}
+      <Project5 />
+
     </>
   );
 }

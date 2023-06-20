@@ -17,7 +17,6 @@ function Form({ input, setInput, todos, setTodos, editTodo, setEditTodo }) {
         setEditTodo("")
     }
 
-
     const handleSubmit = (e) => {
         e.preventDefault()
         if (editTodo) {

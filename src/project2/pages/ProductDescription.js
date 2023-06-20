@@ -11,7 +11,7 @@ function ProductDescription() {
     console.log(product);
     return (
         <>
-            <h1 style={{ margin: "50px" }}>{product.title}</h1>
+            <h1>{product.title}</h1>
         </>
     )
 }

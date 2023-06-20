@@ -33,19 +33,20 @@ email email
 password password
 checkbox accept terms and condition
 radio gender
-date date of birth
+date date of birth //moment.js
 address address (textarea)
 text city
-dropdown state
+dropdown state //mui
 num pincode
 color favourite color
 
 //routing
 dynamic url
+navigate
 loader
 errorElement
-form and action
-navigate
+
+form and action //pending
 
 //forms
 formik //done
@@ -57,12 +58,10 @@ router-form
 
 useState
 useEffect
-
 useReducer medium
 useContext medium
 useRef easy
 useLayoutEffect
-
 useMemo advance
 useCallback advance
 

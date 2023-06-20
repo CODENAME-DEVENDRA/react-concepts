@@ -6,7 +6,10 @@ function RootLayout() {
     return (
         <>
             <MuiNavbar />
-            <Outlet />
+
+            <div style={{ marginTop: "100px" }}>
+                <Outlet />
+            </div >
         </>
     )
 }

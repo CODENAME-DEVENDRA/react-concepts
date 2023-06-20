@@ -1,15 +1,14 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Navbar from '../../components/Navbar'
 
-function Product() {
+function RootLayout() {
     return (
         <>
-            <h1>Product</h1>
+            <Navbar />
             <Outlet />
         </>
-
     )
 }
 
-export default Product
-
+export default RootLayout
