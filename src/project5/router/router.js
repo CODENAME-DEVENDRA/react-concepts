@@ -3,6 +3,7 @@ import RootLayout from "./layouts/RootLayout"
 import Home from "../pages/Home"
 import ProductDescription from "../pages/ProductDescription"
 import Cart from "../pages/Cart"
+import CategoryPage from "../pages/CategoryPage"
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -10,6 +11,7 @@ export const router = createBrowserRouter(
             <Route index element={<Home />} />
             <Route path="products/:id" element={<ProductDescription />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="products/category/:type" element={< CategoryPage />} />
         </Route>
     )
 )
