@@ -39,7 +39,7 @@ function App() {
       {/* <Styling /> */}
       {/* <FragmentComp /> */}
       {/* <Project1 /> */}
-      {/* <Forms /> */}
+      <Forms />
       {/* <Routing /> */}
       {/* <Project2 /> */}
       {/* <HandleSvg /> */}
@@ -56,7 +56,7 @@ function App() {
       {/* <UseCallback /> */}
       {/* <Hoc /> */}
       {/* <CustomHook /> */}
-      <Project5 />
+      {/* <Project5 /> */}
 
     </>
   );

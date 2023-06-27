@@ -83,3 +83,21 @@ which hooks u have used
 //hoc 1/2 day //done
 
 npx create-react-app ./
+
+react interview questions
+react-projects
+
+redux thunk and redux saga || rtk query
+react query
+chart.js || react-apexcharts || nivo
+react-paginate || react-js-pagination
+moment
+mui || bootstrap || tailwind || antd ||
+drag and drop
+React-motion
+react virtualisation || react-window
+
+typescript
+next js
+
+formik with yup //pending edit functionality

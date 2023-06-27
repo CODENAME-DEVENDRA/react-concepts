@@ -9,12 +9,12 @@ import MultipleState from './MultipleState'
 function Main() {
     return (
         <div>
-            {/* <StateString /> */}
+            <StateString />
             {/* <StateNum /> */}
             {/* <StateBoolean /> */}
             {/* <StateArray /> */}
             {/* <StateObject /> */}
-            <MultipleState />
+            {/* <MultipleState /> */}
         </div>
     )
 }

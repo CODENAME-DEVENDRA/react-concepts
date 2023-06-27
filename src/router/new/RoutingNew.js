@@ -3,7 +3,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Home from './components/Home'
 import ContactUs from './components/ContactUs'
 import Product from './components/Product'
-import Add from './components/Add'
+import Add, { connectAction } from './components/Add'
 import Error from './components/Error'
 import ProductDashboard, { productLoader } from './components/ProductDashboard'
 import ProductDetails, { productDetailsLoader } from './components/ProductDetails'
@@ -40,7 +40,7 @@ function RoutingNew() {
             <Route path='/' element={<Home />}>
 
                 <Route path='contact' element={<ContactUs />} >
-                    <Route path='add' element={<Add />} />
+                    <Route path='add' action={connectAction} element={<Add />} />
                 </Route>
 
                 <Route path='product' element={<Product />} >
